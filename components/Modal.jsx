@@ -20,10 +20,10 @@ export default function Modal({ open, onClose }) {
             </button>
 
             <ul className="flex flex-col mt-[54px] space-y-4 text-lg">
-              <li className="font-tenor text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">О нас</li>
-              <li className="font-tenor text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">Каталог</li>
-              <li className="font-tenor text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">Оплата и доставка</li>
-              <li className="font-tenor text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">Контакты</li>
+              <li className="text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">О нас</li>
+              <li className="text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">Каталог</li>
+              <li className="text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">Оплата и доставка</li>
+              <li className="text-[24px] font-normal leading-[107%] tracking-normal mb-6 ml-6">Контакты</li>
             </ul>
           </motion.div>
         </div>

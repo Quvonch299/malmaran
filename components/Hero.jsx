@@ -11,7 +11,7 @@ export default function Hero() {
     <button className='text-[28px] mt-[48px] border py-4 text-[#FFF] px-11'>Выбрать свечу</button>
 </div>
 <div>
-    <Image src={'/hero.png'} width={434} height={548} alt='hero'/>
+    <Image src={'/hero.png'} width={434} height={548} alt='hero' priority/>
 </div>
         </div>
     </div>
